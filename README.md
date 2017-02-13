@@ -1,7 +1,7 @@
-# telegram-cli-mac
-Precompiled Telegram binaries for MacOS.
+# Telegram-CLI Binaries
+Precompiled Telegram binaries for MacOS, tested on Sierra.
 
-It's really tricky to get this stupid thing compiled on MacOS. If trust is a heavy issue for you, maybe go the long route, but here's how I compiled them:
+It's really tricky to get this stupid thing compiled on MacOS (the source is ultra messy and poorly written C - maybe somebody needs to write a rust version?). If trust is a heavy issue for you, maybe go the long route, but here's how I compiled them:
 
 ```bash
 git clone --recursive https://github.com/vysheng/tg.git && cd tg
